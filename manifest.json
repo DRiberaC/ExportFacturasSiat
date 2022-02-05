@@ -1,0 +1,20 @@
+{
+    "manifest_version":2,
+    "name":"Exportar Facturas SIAT",
+    "description":"Extension para exportar las facturas del formato SIAT",
+    "version":"1.0",
+    "icons":{
+        "128":"icons8-export-64.png"
+    },
+    "background":{
+        "scripts":[
+            "background.js"
+        ]
+    },
+    "browser_action":{
+        "default_icon":"icons8-export-64.png"
+    },
+    "permissions":[
+        "activeTab"
+    ]
+}
